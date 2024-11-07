@@ -1,0 +1,62 @@
+/* General styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Optional: replace with your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Popup box styling */
+.popup {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+    width: 300px;
+}
+
+.popup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+/* Button styling */
+.buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+#yesButton {
+    background-color: #28a745; /* Green color */
+}
+
+#noButton {
+    background-color: #dc3545; /* Red color */
+}
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('myImage.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
